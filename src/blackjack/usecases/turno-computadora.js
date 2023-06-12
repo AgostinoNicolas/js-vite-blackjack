@@ -1,4 +1,6 @@
 import { pedirCarta, valorCarta, crearCartaHtml } from './index';
+import Swal from 'sweetalert2';
+import 'animate.css';
 
 /**
  * Turno de la computadora 
@@ -33,13 +35,61 @@ import { pedirCarta, valorCarta, crearCartaHtml } from './index';
 
     setTimeout(() => {
         if( puntosComputadora === puntosMinimos ) {
-            alert('Nadie gana :(');
+            Swal.fire({
+                position: 'center',
+                color: 'white',
+                background: 'black',
+                title: 'Nadie gana :(',
+                showConfirmButton: false,
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                  },
+                  hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                  }
+              })
         } else if ( puntosMinimos > 21 ) {
-            alert('Computadora gana')
+            Swal.fire({
+                position: 'center',
+                color: 'white',
+                background: 'black',
+                title: 'Computadora gana',
+                showConfirmButton: true,
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                  },
+                  hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                  }
+              })
         } else if( puntosComputadora > 21 ) {
-            alert('Jugador Gana');
+            Swal.fire({
+                position: 'center',
+                color: 'white',
+                background: 'black',
+                title: 'Jugador gana',
+                showConfirmButton: true,
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                  },
+                  hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                  } 
+              })
         } else {
-            alert('Computadora Gana')
+            Swal.fire({
+                position: 'center',
+                color: 'white',
+                background: 'black',
+                title: 'Computadora gana',
+                showConfirmButton: true,
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                  },
+                  hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                  }
+              })
         }
-    }, 450 );
+    }, 350 );
 }
