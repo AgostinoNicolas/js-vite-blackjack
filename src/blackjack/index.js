@@ -67,7 +67,7 @@ btnNuevo.addEventListener('click', () => {
 
     console.clear();
     deck = [];
-    deck = crearDeck( carta );
+    deck = crearDeck( tipos, especiales );
 
     puntosJugador     = 0;
     puntosComputadora = 0;
