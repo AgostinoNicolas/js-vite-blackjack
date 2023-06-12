@@ -39,7 +39,8 @@ import 'animate.css';
                 position: 'center',
                 color: 'white',
                 background: 'black',
-                title: 'Nadie gana :(',
+                title: 'Nadie gana 🤝',
+                timer: 'Empataron!',
                 showConfirmButton: false,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
@@ -53,7 +54,8 @@ import 'animate.css';
                 position: 'center',
                 color: 'white',
                 background: 'black',
-                title: 'Computadora gana',
+                title: 'Computadora gana 🏆',
+                text: 'Lo siento, la computadora te ganó!',
                 showConfirmButton: true,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
@@ -67,7 +69,8 @@ import 'animate.css';
                 position: 'center',
                 color: 'white',
                 background: 'black',
-                title: 'Jugador gana',
+                title: 'Jugador gana 🏆',
+                text: 'Felicitaciones has ganado!!',
                 showConfirmButton: true,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
@@ -81,7 +84,8 @@ import 'animate.css';
                 position: 'center',
                 color: 'white',
                 background: 'black',
-                title: 'Computadora gana',
+                title: 'Computadora gana 🏆',
+                text: 'Lo siento, la computadora te ganó!',
                 showConfirmButton: true,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
@@ -91,5 +95,5 @@ import 'animate.css';
                   }
               })
         }
-    }, 350 );
+    }, 300 );
 }

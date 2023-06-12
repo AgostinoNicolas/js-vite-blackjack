@@ -13,6 +13,16 @@ html, body {
   font-size: 25px;
 }
 
+.jugador-container{
+  display: block;
+  background: black;
+  padding: 5px 10px 5px 10px;
+  width: fit-content;
+  border-radius: 8px;
+  margin-bottom: 10px;
+
+}
+
 .carta {
   position: relative;
   width: 150px;
