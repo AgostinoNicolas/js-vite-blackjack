@@ -41,5 +41,5 @@ import { pedirCarta, valorCarta, crearCartaHtml } from './index';
         } else {
             alert('Computadora Gana')
         }
-    }, 100 );
+    }, 450 );
 }
