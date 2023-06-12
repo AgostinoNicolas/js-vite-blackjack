@@ -40,7 +40,7 @@ import 'animate.css';
                 color: 'white',
                 background: 'black',
                 title: 'Nadie gana 🤝',
-                timer: 'Empataron!',
+                text: 'Empataron!',
                 showConfirmButton: false,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
