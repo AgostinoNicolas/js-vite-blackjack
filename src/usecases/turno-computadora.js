@@ -55,7 +55,7 @@ import 'animate.css';
                 color: 'white',
                 background: 'black',
                 title: 'Computadora gana 🏆',
-                text: 'Lo siento, perdiste',
+                text: 'Lo siento, perdiste!',
                 showConfirmButton: true,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
