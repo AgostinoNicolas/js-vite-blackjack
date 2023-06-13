@@ -41,7 +41,7 @@ import 'animate.css';
                 background: 'black',
                 title: 'Nadie gana 🤝',
                 text: 'Empataron!',
-                showConfirmButton: false,
+                showConfirmButton: true,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
                   },
@@ -55,7 +55,7 @@ import 'animate.css';
                 color: 'white',
                 background: 'black',
                 title: 'Computadora gana 🏆',
-                text: 'Lo siento, la computadora te ganó!',
+                text: 'Lo siento, perdiste',
                 showConfirmButton: true,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
